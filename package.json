@@ -1,0 +1,20 @@
+{
+  "name": "try-react-with-mapzen",
+  "version": "1.0.0",
+  "description": "trying react with mapzen.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/browserify/bin/cmd.js -t [ babelify ] main.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "mapzen.js": "^0.3.9",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
